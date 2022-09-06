@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header {
+	display:flex;
+	width:100%;
+	background-color: deepskyblue;
+}
+
+body {
+	display:flex;
+	width:100%;
+	height:auto;
+	background-color:beige;
+}
+
+.content {
+	display:flex;
+	width:75%;
+	height:auto;
+	position: relative;
+  	flex-wrap:wrap;
+  	flex-direction:row;
+  	justify-content:space-between;
+  	align-content:center;
+	margin-left:auto;
+	margin-right:auto;
+}
